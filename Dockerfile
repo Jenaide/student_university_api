@@ -3,6 +3,7 @@ FROM python:3.10-slim-buster
 
 # Sets environment variables
 ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWEITEBYTECODE=1
 
 # Set the working directory to /code
 WORKDIR /code
